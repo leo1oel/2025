@@ -1,29 +1,36 @@
 ---
 layout: distill
-title: Scientific Understanding of Vision-Language Models
-description: Vision-Language Models (VLMs) have emerged as a significant advancement in AI, demonstrating remarkable capabilities in integrating visual and textual information processing. While the field has seen rapid progress through engineering innovations, this advancement has primarily relied on empirical approaches rather than deep scientific understanding. Compared to Language Models (LMs) where interpretability research is extensive, the scientific understanding of VLMs remains limited. In this survey blog, we examine VLM research from both macro (model behavior analysis) and micro (mechanistic interpretability) perspectives, aiming to bridge the gap between empirical success and theoretical understanding. Through this comprehensive analysis, we not only summarize current approaches but also identify promising directions for developing a more principled understanding of VLMs.
+title: Towards Scientific Understanding of Vision-Language Models
+description: 
+
+Vision-language models (VLMs), such as GPT-4o, have rapidly evolved, showcasing impressive capabilities across diverse tasks. However, much of the progress in this field has been driven by engineering efforts aimed at improving performance on standardized benchmarks, with limited focus on understanding how these models work or guiding future development through a scientific lens. This gap in scientific understanding poses challenges for further improving their robustness, generalization, and interpretability. In this work, we systematically review two complementary research streams that contribute to a scientific understanding of VLMs. At the macro level, we explore studies focusing on functional analysis, examining the behavior and performance of VLMs in diverse scenarios. At the micro level, we delve into structural analysis, investigating their internal mechanisms, such as neurons and feature representations, to uncover how they process information. Finally, we discuss opportunities to integrate these perspectives, paving the way for a more principled and systematic approach to understanding and developing VLMs.
+
+# Vision-Language Models (VLMs), such as GPT-4o, have rapidly evolved, showcasing impressive capabilities across diverse tasks. However, much of the progress in this field has been driven by engineering efforts aimed at improving performance on standardized benchmarks, with limited focus on understanding how these models work or guiding future development through a scientific lens. In this work, we systematically review two complementary research streams that contribute to a more scientific understanding to VLMs. At the macro level, we explore studies analyzing VLM behaviors, akin to ethology research, while at the micro level, we examine works focusing on mechanistic interpretability, dissecting neurons and features in a manner reminiscent of anatomical studies. Finally, we discuss opportunities to bridge these two perspectives, paving the way for a more principled understanding and development of VLMs.
+
+# Vision-Language Models (VLMs) have emerged as a significant advancement in AI, demonstrating remarkable capabilities in integrating visual and textual information processing. While the field has seen rapid progress through engineering innovations, this advancement has primarily relied on empirical approaches rather than deep scientific understanding. Compared to Language Models (LMs) where interpretability research is extensive, the scientific understanding of VLMs remains limited. In this survey blog, we examine VLM research from both macro (model behavior analysis) and micro (mechanistic interpretability) perspectives, aiming to bridge the gap between empirical success and theoretical understanding. Through this comprehensive analysis, we not only summarize current approaches but also identify promising directions for developing a more principled understanding of VLMs.
+
 date: 2025-04-28
 future: true
 htmlwidgets: true
 hidden: false
 
 # Anonymize when submitting
-# authors:
-#   - name: Anonymous
-
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
-    affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+  - name: Anonymous
+
+# authors:
+#   - name: Albert Einstein
+#     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+#     affiliations:
+#       name: IAS, Princeton
+#   - name: Boris Podolsky
+#     url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+#     affiliations:
+#       name: IAS, Princeton
+#   - name: Nathan Rosen
+#     url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+#     affiliations:
+#       name: IAS, Princeton
 
 # must be the exact same name as your blogpost
 bibliography: 2025-04-28-vlm-understanding.bib  

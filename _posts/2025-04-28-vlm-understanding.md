@@ -8,8 +8,15 @@ htmlwidgets: true
 hidden: false
 
 authors:
-  - name: Anonymous
-
+  - name: Yiming Liu
+    affiliation:
+    - name: Tsinghua University
+  - name: Yuhui Zhang
+    affiliation:
+    - name: Stanford University
+  - name: Serena Yeung-Levy
+    affiliation:
+    - name: Stanford University
 # authors:
 #   - name: Albert Einstein
 #     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
